@@ -21,14 +21,14 @@ ESTIMATION_EXAMPLES = [
 ## Estimacion: Portal de Documentacion para Gestoria
 
 ### Desglose de tareas:
-1. Diseno de modelo de datos y autenticacion (clientes + gestores): 16 horas
-2. Area de cliente: subida y listado de documentos: 24 horas
-3. Area interna: clasificacion y revision de documentos: 28 horas
-4. Notificaciones por email (documentacion pendiente): 12 horas
-5. Despliegue inicial en el alojamiento existente: 8 horas
-6. Pruebas y correccion de errores: 16 horas
+1. Diseno de modelo de datos y autenticacion (clientes + gestores): 16 horas (880 EUR)
+2. Area de cliente: subida y listado de documentos: 24 horas (1.320 EUR)
+3. Area interna: clasificacion y revision de documentos: 28 horas (1.540 EUR)
+4. Notificaciones por email (documentacion pendiente): 12 horas (660 EUR)
+5. Despliegue inicial en el alojamiento existente: 8 horas (440 EUR)
+6. Pruebas y correccion de errores: 16 horas (880 EUR)
 
-**Total estimado: 104 horas**
+**Total estimado: 104 horas (5.720 EUR, a 55 EUR/hora)**
 **Equipo recomendado: 1 desarrollador full-stack**
 **Duracion estimada: 4-5 semanas**
 """,
@@ -46,13 +46,13 @@ ESTIMATION_EXAMPLES = [
 ## Estimacion: Generador Automatico de Certificados
 
 ### Desglose de tareas:
-1. Endpoint receptor del webhook de 'curso completado': 8 horas
-2. Generacion de PDF a partir de plantilla (datos del alumno/curso): 16 horas
-3. Envio de email con el certificado adjunto: 8 horas
-4. Listado interno de certificados emitidos, con busqueda: 14 horas
-5. Pruebas end-to-end con la plataforma del cliente: 10 horas
+1. Endpoint receptor del webhook de 'curso completado': 8 horas (440 EUR)
+2. Generacion de PDF a partir de plantilla (datos del alumno/curso): 16 horas (880 EUR)
+3. Envio de email con el certificado adjunto: 8 horas (440 EUR)
+4. Listado interno de certificados emitidos, con busqueda: 14 horas (770 EUR)
+5. Pruebas end-to-end con la plataforma del cliente: 10 horas (550 EUR)
 
-**Total estimado: 56 horas**
+**Total estimado: 56 horas (3.080 EUR, a 55 EUR/hora)**
 **Equipo recomendado: 1 desarrollador backend**
 **Duracion estimada: 2-3 semanas**
 """,

@@ -1,6 +1,11 @@
 from fastapi import FastAPI
 
+from app.config import get_settings
 from app.routers import estimations
+
+# Fail fast: valida la configuracion (clave del proveedor, etc.) al arrancar
+# el servicio, no en la primera peticion real.
+get_settings()
 
 app = FastAPI(
     title="Estimador CAG",
