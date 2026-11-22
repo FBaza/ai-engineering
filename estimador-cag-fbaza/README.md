@@ -10,7 +10,7 @@ Ejercicio de la Sesion 2 del Master en AI Engineering (LIDR).
 ## Estructura
 
 ```
-estimador-cag/
+estimador-cag-fbaza/
 ├── app/
 │   ├── main.py             # app FastAPI, incluye el router, GET /health
 │   ├── config.py           # configuracion (Pydantic BaseSettings)
@@ -36,7 +36,7 @@ estimador-cag/
 ## Puesta en marcha
 
 ```bash
-cd estimador-cag
+cd estimador-cag-fbaza
 cp .env.example .env
 # Editar .env y poner tu ANTHROPIC_API_KEY real
 
